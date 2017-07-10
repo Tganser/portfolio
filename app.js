@@ -9,7 +9,7 @@ app.get('/', function(req, res) {
 });
 
 // server port set and listen
-var serverPort = process.env.PORT || 3004;
+var serverPort = process.env.PORT || 3005;
 app.set('port', serverPort);
 
 var server = app.listen(serverPort, function() {

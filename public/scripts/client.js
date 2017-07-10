@@ -1,6 +1,6 @@
 console.log("js sourced");
 
-var myApp = angular.module('myApp');
+// var myApp = angular.module('myApp');
 // var vm = this;
 
 // myApp.controller('MyController', ['GithubAPI', function(GithubAPI) {
@@ -23,9 +23,9 @@ var myApp = angular.module('myApp');
 // }]);
 
 
-myApp.controller('WelcomeController', function() {
-  console.log('WelcomeController loaded');
-});
+// myApp.controller('WelcomeController', function() {
+//   console.log('WelcomeController loaded');
+// });
 
 //
 // myApp.controller('CodeController', ['GithubAPI', function(GithubAPI) {
