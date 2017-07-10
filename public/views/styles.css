@@ -1,0 +1,25 @@
+
+body {
+  background-color: #C5D1E5;
+  font-family: 'Roboto', sans-serif;
+  /*font-style: thin;*/
+}
+
+.logoarea {
+  background-color: #373A40;
+  padding: 1em;
+}
+
+
+#title {
+  color: white;
+  text-align: center;
+  font-size: 100%;
+  
+}
+
+#tglogo {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
