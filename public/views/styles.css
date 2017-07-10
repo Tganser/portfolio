@@ -12,14 +12,103 @@ body {
 
 
 #title {
-  color: white;
+  color: #C5D1E5;
   text-align: center;
-  font-size: 100%;
-  
+  font-size: 110%;
+  letter-spacing: .5em;
+  margin-bottom: 1.5em;
+
 }
 
 #tglogo {
   display: block;
   margin: auto;
   width: 40%;
+}
+
+#linkedlogos {
+  width: 10%;
+  display: block;
+  margin: auto;
+}
+
+#github, #linkedin {
+  display: inline;
+  height: 2em;
+  width: auto;
+}
+
+.navigation {
+  letter-spacing: .2em;
+  text-align: center;
+  color: #C5D1E5;
+  margin: 0px;
+  padding: .7em;
+  font-size: .8em;
+  /*padding: .5em;*/
+  /*font-weight: bold;*/
+}
+
+hr {
+  /*padding: 0px;*/
+  margin: auto;
+}
+
+h1 {
+  font-size: 2em;
+  margin-top: 0px;
+}
+
+p {
+  padding: 2em;
+}
+
+.section {
+  background-color: white;
+  margin: 2em;
+  padding: 2em;
+  color: #373A40;
+}
+
+#tessaphoto {
+  display: block;
+  margin: auto;
+  width: 90%;
+}
+
+/*#about {
+  background-color: white;
+  margin: 2em;
+  color: #373A40;
+}*/
+
+/*#work {
+  background-color: white;
+  margin: 2em;
+  padding: 1em;
+  color: #373A40;
+}
+
+#resume {
+  background-color: white;
+  margin: 2em;
+  padding: 1em;
+  color: #373A40;
+}*/
+
+a {
+  color: #C5D1E5;
+  padding-right: 1em;
+  padding-left: 1em;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #A4AEBF;
+  text-decoration:none;
+  font-style: italic;
+}
+
+a:visited{
+  color:white;
 }
