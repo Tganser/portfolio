@@ -5,80 +5,278 @@
     <meta charset="utf-8">
     <title></title>
     <script src="vendors/angular.min.js" charset="utf-8"></script>
-    <script src="vendors/angular-route.min.js" charset="utf-8"></script>
     <script src="scripts/client.js" charset="utf-8"></script>
-    <script src="scripts/github.service.js" charset="utf-8"></script>
+    <!-- <script src="scripts/github.service.js" charset="utf-8"></script> -->
     <link rel="stylesheet" href="/vendors/bootstrap.min.css">
     <link rel="stylesheet" href="views/styles.css">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Istok+Web|Montserrat" rel="stylesheet"> -->
-<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">    <base href="/">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+    <base href="/">
 
 </head>
 
 <body ng-app="myApp">
 
-<div class= "logoarea">
-  <div class="tessalogo">
-    <img src="views/tessalogo.png" id="tglogo" alt="logo" style="align: center">
-    <h3 id="title">FULL STACK SOFTWARE ENGINEER</h3>
-    <hr width="50%"/>
-    <!-- <div id="linkedlogos">
+    <div class="logoarea">
+        <div class="tessalogo">
+            <img src="views/tessalogo.png" id="tglogo" alt="logo" style="align: center">
+            <h3 id="title">FULL STACK SOFTWARE ENGINEER</h3>
+            <hr width="50%" />
+            <!-- <div id="linkedlogos">
       <img src="views/linkedin.png" id="linkedin" >
       <img src="views/github.png" id="github">
     </div> -->
-    <div class="navigation">
-        <a href="#me"> About </a>
-        <a href="#work"> Work </a>
-        <a href="#resume"> Resume </a>
-        <a href="#contact"> Contact </a>
+            <div class="navigation">
+                <a href="#me"> About </a>
+                <a href="#work"> Work </a>
+                <a href="#contact"> Resume </a>
+                <a href="https://www.linkedin.com/in/tessaganser/"> LinkedIn </a>
+                <a href="https://github.com/Tganser"> GitHub </a>
+
+            </div>
+            <!-- <hr width="50%"/> -->
+
+        </div>
     </div>
-    <!-- <hr width="50%"/> -->
 
-  </div>
-</div>
-
-<div class="section row" id="about">
-  <a name="me"></a>
+    <div class="section row" id="about">
+        <a name="me"></a>
 
 
-  <!-- <img id="tessaphoto" src="views/tphoto.jpg" style="float:right;"alt="photo of tessa ganser" padding="2em;" margin="1em;"> -->
+        <!-- <img id="tessaphoto" src="views/tphoto.jpg" style="float:right;"alt="photo of tessa ganser" padding="2em;" margin="1em;"> -->
 
-  <h1>About</h1>
-  <hr />
+        <!-- <h1>About</h1>
+  <hr /> -->
 
-  <div id="biotext" class="col-sm-9">
-    <p>
-      I'm Tessa Ganser, a full stack web developer with a background in digital marketing and freelance website development/management.
-      <br />
-      <br />
-      I enrolled in Prime Digital Academy to study Full Stack Software Engineering as I was looking to learn and be more challenged in my career. I enjoy serving clients and creating efficient, reliable, creative solutions to business problems of all kinds. As I was data science minor at Macalester College, I'm also excited about the future of machine learning and engineering surrounding that field. I am looking for opportunities in the Twin Cities software and web development community.
-    </p></div>
+        <div id="biotext" class="col-sm-9">
+            <h1>About</h1>
+            <hr />
+            <p>
+                I'm Tessa Ganser, a full stack web developer with a background in digital marketing, content strategy, and website development/management.
+                <br />
+                <br />
+                I enrolled in Prime Digital Academy's Full Stack Software Engineering Program to deepen my understanding of web development and refine my programming technical skills. I enjoy working with clients to create efficient, beautiful solutions. I'm also excited about data science, and have some practice in the world of machine learning, data science programming, and data visualization.
 
-    <div class ="col-sm-3">
-      <img id="tessaphoto" src="views/tphoto.jpg" style="float:right;"alt="photo of tessa ganser" padding="2em;" margin="1em;">
+            </p>
+            <h3>Technical Skills</h3>
+            <div class ="skills">
+
+            <div class="tech">Javascript</div>
+            <div class="tech">MongoDB</div>
+            <div class="tech">Express</div>
+            <div class="tech">AngularJS</div>
+            <div class="tech">Node.js</div>
+            <div class="tech">Wordpress</div>
+            <div class="tech">Java</div>
+            <div class="tech">R</div>
+            <div class="tech">Python</div>
+            <div class="tech">SQL</div>
+            <div class="tech">HTML5</div>
+            <div class="tech">CSS3</div>
+            <div class="tech">Bootstrap</div>
+            <div class="tech">jQuery</div>
+            <div class="tech">Git</div>
+            <div class="tech">GitHub</div>
+            <div class="tech">npm</div>
+            <div class="tech">AJAX</div>
+            <div class="tech">Passport</div>
+            <div class="tech">Google OAuthentication</div>
+            <div class="tech">APIs</div>
+            <div class="tech">Heroku</div>
+            <div class="tech">Unit Testing</div>
+            <div class="tech">Responsive Design</div>
+            <div class="tech">Google Analytics</div>
+            <div class="tech">Adobe Photoshop</div>
+            <div class="tech">Digital Strategy</div>
+            <div class="tech">Data Science and Machine Learning</div>
+            <div class="tech">Geographic Information Systems (GIS)</div>
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+            <img id="tessaphoto" src="views/tphoto.jpg" style="float:right;" alt="photo of tessa ganser" padding="2em;" margin="1em;">
+        </div>
     </div>
-</div>
 
-<div class="section" id="work">
-  <a name="work"></a>
-  <h1>Work</h1>
-  <hr />
+    <div class="section row" id="work">
+        <a name="work"></a>
+        <div class="col-sm-12">
+            <h1>Work</h1>
+            <hr />
+        </div>
 
-</div>
+        <div class="col-sm-8">
 
-<div class="section" id="resume">
-  <a name="resume"></a>
-  <h1>Resume</h1>
-  <hr />
+            <h2>Solo Project: <strong>Intention</strong></h2>
+            <p>
+                Intention is a Google calendar dashboard application to visualize calendar data, highlight trends, and support analysis. Intention also allows the user to create goals (intentions) and add them to their schedule.
+                <br />
+                <div class ="skills">
+                  <div class="tech">Javascript</div>
+                  <div class="tech">Google OAuthentication</div>
+                  <div class="tech">Google Calendar API</div>
+                  <div class="tech">AngularJS</div>
+                  <div class="tech">Express</div>
+                  <div class="tech">Node.js</div>
+                  <div class="tech">MongoDB</div>
+                  <div class="tech">D3</div>
+                  <div class="tech">Git</div>
+                  <div class="tech">Heroku</div>
 
-</div>
+                </div>
 
-<div class="section" id="contact">
-  <a name="contact"></a>
-  <h1>Contact</h1>
-  <hr />
+                <!-- </div> -->
+                <!-- <br /><em>Technology:</em> JavaScript, Google OAuthentication and gCal API, Angular, Express, Node, MongoDB, D3, Heroku, Git </p> -->
+        </div>
 
-</div>
+        <div class="col-sm-4">
+            <img id="intention" src="views/intention.png" style="float:right;" alt="screenshot of application: Intention" padding="2em;" margin="1em;">
+            <a href="https://intention.herokuapp.com/" style="color:darkgray;"><em><strong>Intention.herokuapp.com</em></strong></a>
+
+        </div>
+
+
+        <div class="col-sm-8">
+          <br />
+          <hr />
+            <h2>Final Project: <strong>Step-Up Check-In</strong></h2>
+            <p>
+                Our application, Step-Up Check-In, will allow students to give weekly feedback on their work experiences via their mobile devices. Application administrators will be able to access and analyze this data through the application dashboard and provide additional
+                support to students as needed based on their responses.
+                <br />
+                <div class ="skills">
+                  <div class="tech">Javascript</div>
+                  <div class="tech">Google OAuthentication</div>
+                  <div class="tech">SQL</div>
+                  <div class="tech">PostgreSQL</div>
+                  <div class="tech">AngularJS</div>
+                  <div class="tech">Express</div>
+                  <div class="tech">Node.js</div>
+                  <div class="tech">Grunt</div>
+                  <div class="tech">Twillio</div>
+                  <div class="tech">ChartJS</div>
+                  <div class="tech">Git</div>
+                  <div class="tech">Heroku</div>
+
+                </div>
+
+                <!-- <em>Technology:</em> JavaScript, Angular, Node, Express, SQL, PostgreSOL, Grunt, Twilio, D3, Heroku, Git -->
+                           </p>
+        </div>
+
+        <div class="col-sm-4">
+            <img id="intention" src="views/walkthrough/part2.gif" style="float:right;" alt="screenshot of application: Intention" padding="2em;" margin="1em;">
+            <a href="https://stepupcheckin.herokuapp.com/" style="color:darkgray;"><em><strong>StepUpCheckIn.herokuapp.com</em></strong></a><br />
+            <a href="https://github.com/mlars84/step-up_check-in" style="color:darkgray;"><em><strong>Step Up Check In GitHub Repository</em></strong></a>
+        </div>
+
+
+
+        <div class="col-sm-12">
+            <h2>Freelance Projects</h2>
+            <hr />
+        </div>
+
+        <div class="col-sm-6 freelance">
+            <img src="views/tofte.png" id="freephoto" style="float:left;">
+            <h4>Tofte Group</h4>
+            <p>
+                Wordpress web development, digital strategy consulting, content management
+                <a href="http://www.toftegroup.com/" style="color:darkgray;"><em><strong>TofteGroup.com</em></strong></a>
+
+            </p>
+        </div>
+
+        <div class="col-sm-6 freelance">
+            <img src="views/havlicek.png" id="freephoto">
+            <h4>Havlicek's Orchard</h4>
+            <p>
+                Wordpress web development, web consulting, digital strategy
+                <a href="http://havlicekorchard.com/" style="color:darkgray;"><em><strong>HavlicekOrchard.com</em></strong></a>
+            </p>
+        </div>
+
+        <div class="col-sm-6 freelance">
+            <img src="views/karenarms.png" id="freephoto">
+            <h4>Karen Arms Apartments</h4>
+            <p>
+                Website management, digital strategy consulting, content management, social media management
+                <a href="http://karenarms.com/" style="color:darkgray;"><em><strong>KarenArms.com</em></strong></a>
+            </p>
+        </div>
+
+        <div class="col-sm-6 freelance">
+            <img src="views/emelie.png" id="freephoto">
+            <h4>Emelie Gardens </h4>
+            <p>
+                Wordpress Web development (in progress)
+                <a href="http://emeliegardens.com/" style="color:darkgray;"><em><strong>EmelieGardens.com</em></strong></a>
+            </p>
+        </div>
+
+        <!-- <h4>Emelie Gardens </h4>
+<a href="https://stepupcheckin.herokuapp.com/" style="color:darkgray;"><em><strong>StepUpCheckIn.herokuapp.com</em></strong></a> -->
+
+        <!-- <p>
+  <a href="http://www.emeliegardens.com/"> emeliegardens.com </a>
+</p> -->
+
+    </div>
+
+
+
+    </div>
+
+    <!-- <div class="section" id="resume">
+        <a name="resume"></a>
+        <h1>Resume</h1>
+        <hr />
+
+    </div> -->
+
+    <div class="section row" id="contact">
+        <a name="contact"></a>
+        <!-- <h3>Contact Tessa</h3> -->
+        <div class="col-sm-12" id = "iconarea">
+          <h2>Contact</h2>
+          <a href="https://www.linkedin.com/in/tessaganser/"><img src="views/linkedingray.png" class="icons" style="float:right;"></a>
+          <a href="https://github.com/Tganser"><img src="views/githubgray.png" class="icons" style="float:right;"></a>
+          <a href=""><img src="views/emailgray.png" class="icons" style="float:right;"></a>
+
+          <!-- <h5>LinkedIn
+          <a href="https://www.linkedin.com/in/tessaganser/" style="color:black;"> Tessa Ganser LinkedIn</a>
+          </h5> -->
+
+          <!-- <img src="views/githubgray.png" class="icons"> -->
+          <!-- <h5>GitHub
+          <a href="https://github.com/Tganser" style="color:black;"> TGanser on GitHub</a>
+        </h5> -->
+
+        <h5>
+        <a href="views/TessaGanserResume(1).pdf">Download Full Resume</a>
+        </h5>
+
+        </div>
+<!--
+        <div class="col-sm-4">
+          <img src="views/githubgray.png" class="icons">
+          <h5>GitHub
+          <a href="https://github.com/Tganser" style="color:black;"> TGanser on GitHub</a>
+        </h5>
+        </div> -->
+
+        <!-- <div class="col-sm-4">
+          <img src="views/emailgray.png" class="icons" style="align: left;">
+          <h5>t.m.ganser@gmail
+          <a href="views/TessaGanserResume(1).pdf">download full Resume</a>
+</h5>
+        </div>
+
+
+
+
+        <hr /> -->
+
+    </div>
 
 </body>
 
